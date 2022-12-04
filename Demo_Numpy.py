@@ -1,0 +1,11 @@
+import numpy as np
+myarray = np.array([10,22,15,8,20])
+print(myarray)
+sortedMyArray = np.sort(myarray)
+print(sortedMyArray)
+mymaxvalue = np.max(myarray)
+print(mymaxvalue)
+myminValue = np.min(myarray)
+print(myminValue)
+print(sortedMyArray[1])
+print(myarray[1:4])
